@@ -34,22 +34,22 @@ Aqui estão as instruções para instalar o Visual Studio Code (VSCode) em difer
 [Debian ou Ubunto](https://code.visualstudio.com/download). Caso utilize outra distribuição, [neste link você encontra a documentação oficial com as explicações e passo a passo da instalação](https://code.visualstudio.com/docs/setup/linux).
 
 
-####Create env Python 
+#### Create env Python 
 
 Criar ambiente virtual 
-'''python -m venv ./venv  '''
+```python -m venv ./venv```
 
 Ativar ambiente virtual
 
-'''source venv/bin/activate '''
+```source venv/bin/activate```
 
 
 Gerenciador de pacotes : pip 
 
 Intalar tudo que o projeto já esta utilizando 
-'''pip install -r requirements.txt''''
+```pip install -r requirements.txt```
 
 
 Subir projeto fast com uvicorn 
 
-'''uvicorn app:app --host 0.0.0.0 --port 4000 --reload'''
+```uvicorn app:app --host 0.0.0.0 --port 4000 --reload```
